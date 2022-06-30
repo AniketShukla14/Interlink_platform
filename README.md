@@ -10,6 +10,7 @@ An integrated platform should be developed for the integration of School educati
 <li>Better synchronization between the agencies controlling School education, Higher education and Technical education.</li> 
 <li>Access to real time data for framing policies related to School education, Higher education and Technical education </li>
 <li> Integration in all these three verticals </li>
+
 ## Organization : All India Council for Technical Education (AICTE).
 ## Category : Software
 ## Domain : Smart Education
