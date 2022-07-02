@@ -1,0 +1,75 @@
+Basic Information of shortforms used :
+State City School code (ST_CT_SC_Code)
+DOL : Date of Leaving
+DOJ : Date of Joining
+DOB : Date of Birth
+Regdno : Registration number
+ShiftTO : Where did the respective student shifted to.
+
+------------------------------------------------------------
+
+/* School Database Codes * /
+db.createCollections ("School_Data")
+db.createcollections.insert({
+ST_CT_SC_Code:null
+Session:null
+Active: null
+Regdno:null
+DOJ: null
+Name:null
+DOB: null
+Gender:null
+class1:null
+class2:null
+class3: null
+class4: null
+class5: null
+class6: null
+class7: null
+class8: null
+class9: null
+class10: null
+Stream: null
+12thMrks: null
+DOL: null
+shiftTo: null //this field is for the State City School code (ST_CT_SC_Code)
+})
+
+---------------------------------------------
+
+/* HIGH SCHOOL DATA SET CODES */
+
+db.createCollections ("HighSchool_DataSet")
+db.createCollections.insert ({
+Active : null
+Regdno : null
+DOJ : null
+Name : null
+DOB : null
+Gender : null
+Stream : null
+class11 : null
+class12 : null
+DOL: null
+shiftTo: null //this field is for the State City College Code (ST_CT_SC_Code)
+//this field will let adminstrator know to which college did the student went
+})
+
+--------------------------------------------------
+
+/* COLLEGE DATA SET CODES */
+db.createCollections ("College_DataSet")
+db.createCollections.insert ({
+Active : null
+Regdno : null
+DOJ : null
+Name : null
+DOB : null
+Gender : null
+Branch : null
+DOL : null
+Placement : null
+ShiftTo : null //this field contains to which college and to which location did the 
+//person go
+})
+
