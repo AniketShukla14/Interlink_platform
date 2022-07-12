@@ -1,3 +1,15 @@
 <h1> Comp Crew </h1>
  <h2> First Page </h2>
  
+
+ {% block title %}Home{% endblock %}
+
+ {% block content %}
+ {% if user.is_authenticated %}
+   Hi {{ user.username }}!
+   <p><a href="{% url 'logout' %}">Log Out</a></p>
+ {% else %}
+   <p>You are not logged in</p>
+   <a href="{% url 'login' %}">Log In</a>
+ {% endif %}
+ {% endblock %}
