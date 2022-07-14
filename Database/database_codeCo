@@ -1,13 +1,13 @@
-CREATE TABLE College(
-    'Active' BINARY(2),
-    'Session' DATE NOT NULL,
-    'Regdno' VARCHAR(25) NOT NULL,
-    'DOJ' DATE NOT NULL,
-    'Name' VARCHAR(25),
-    'DOB' DATE NOT NULL,
-    'gender' char(1) enum('m''f'),
-    'branch' VARCHAR(2),
-    'DOL' DATE NOT NULL,
-    'Placement' VARCHAR(25),
-    'ShiftTo' VARCHAR(25),
-);
+CREATE TABLE College
+    (Active ENUM('Y','N'),
+     Session DATE NOT NULL,
+     Regdno  VARCHAR(25) NOT NULL,
+     DOJ   DATE NOT NULL,
+     Gender ENUM('M','F') NOT NULL,
+     Branch VARCHAR(2),
+     DOL DATE NOT NULL,
+     Placement VARCHAR(25),
+     ShiftTo  VARCHAR(25));
+
+INSERT INTO College
+    VALUES('Y','1993-09-04','A12890','1923-05-15','F','CE','1995-09-09','TCS','DELHI');
