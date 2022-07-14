@@ -1,2 +1,25 @@
+CREATE TABLE HighSchool(
+    'Active' BINARY(2),
+    'Session' DATE NOT NULL,
+    'Regdno' VARCHAR(25) NOT NULL, 
+    'DOJ' DATE NOT NULL,
+    'Name' VARCHAR(25),
+    'DOB' DATE NOT NULL,
+    'gender' char(1) enum('m''f'),
+    'stream' char(10) enum('pcm','pcb','commerce','arts'),
+    'class11' int(25),
+    'class12' int(25) ,
+    'DOL' DATE NOT NULL,
+    'ShiftTo'  VARCHAR(25),
+);
 
-'stream' char(10) enum('pcm','pcb','commerce','arts')
+
+
+
+
+
+
+
+
+
+

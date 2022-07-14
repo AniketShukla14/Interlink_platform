@@ -1,0 +1,13 @@
+CREATE TABLE College(
+    'Active' BINARY(2),
+    'Session' DATE NOT NULL,
+    'Regdno' VARCHAR(25) NOT NULL,
+    'DOJ' DATE NOT NULL,
+    'Name' VARCHAR(25),
+    'DOB' DATE NOT NULL,
+    'gender' char(1) enum('m''f'),
+    'branch' VARCHAR(2),
+    'DOL' DATE NOT NULL,
+    'Placement' VARCHAR(25),
+    'ShiftTo' VARCHAR(25),
+);
