@@ -1,0 +1,2 @@
+
+'stream' char(10) enum('pcm','pcb','commerce','arts')
