@@ -1,21 +1,18 @@
-CREATE TABLE HighSchool(
-    'Active' BINARY(2),
-    'Session' DATE NOT NULL,
-    'Regdno' VARCHAR(25) NOT NULL, 
-    'DOJ' DATE NOT NULL,
-    'Name' VARCHAR(25),
-    'DOB' DATE NOT NULL,
-    'gender' char(1) enum('m''f'),
-    'stream' char(10) enum('pcm','pcb','commerce','arts'),
-    'class11' int(25),
-    'class12' int(25) ,
-    'DOL' DATE NOT NULL,
-    'ShiftTo'  VARCHAR(25),
-);
+CREATE TABLE HighSchool
+    (Active ENUM('Y','N'),
+     Session DATE NOT NULL,
+     Regdno  VARCHAR(25) NOT NULL,
+     DOJ   DATE NOT NULL,
+     Name  VARCHAR(25),
+     DOB   DATE NOT NULL,   
+     Gender ENUM('M','F') NOT NULL,
+     Stream ENUM('SCIENCE','COMMERCE','ARTS'),
+     Class11 INT(25),
+     Class12 INT(25),
+     DOL DATE NOT NULL,
+     ShiftTo  VARCHAR(25));
 
-
-
-
+INSERT INTO Highschool VALUES('Y','1998-09-08','A3562','1999-07-05','LARA','1897-08-07','F','ARTS',92,NULL,'1892-09-09','NCR');
 
 
 
