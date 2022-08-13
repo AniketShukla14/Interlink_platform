@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Lato&display=swap');
+.box{
+    height: 58.74px;
+    left: 0px;
+    top: -1.07px;
+    background: #2677C3;
+    color: #FFFFFF;
+}
+.dropdown{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.372px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.navbar{
+    position: absolute;
+    height: 123.88px;
+    left: 0px;
+    
+    background: linear-gradient(0deg, #C0B2B2 -61.21%, rgba(248, 236, 236, 0) 165.52%);
+}
+.navbrand{
+    position: absolute;
+    width: 97.49px;
+    left: 59.65px;
+    
+}
+.brand-name{
+    position: absolute;
+    left: 143.01px;
+    top: 71.55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.1164px;
+    line-height: 23px;
+    color: #1F1D1D;
+}
+.nav-item1{
+    position: absolute;
+    width: 103.54px;
+    height: 44.69px;
+    left: 940.09px;
+    top: 40.30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.0506px;
+    line-height: 30px;
+    color: #0f0f0f;
+    text-shadow: 0px 4.26425px 4.26425px rgba(0, 0, 0, 0.25);
+
+}
+.nav-item2{
+    position: absolute;
+    width: 99.54px;
+    height: 44.69px;
+    left: 1090.09px;
+    top: 40.30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.0506px;
+    line-height: 30px;
+    color: #0f0f0f;
+    text-shadow: 0px 4.26425px 4.26425px rgba(0, 0, 0, 0.25);
+
+}
+.nav-item3{
+    position: absolute;
+    width: 93.73px;
+    height: 44.69px;
+    left: 1240.75px;
+    top: 40.30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.0506px;
+    line-height: 30px;
+    color: #0f0f0f;
+    text-shadow: 0px 4.26425px 4.26425px rgba(0, 0, 0, 0.25);
+
+}
+.nav-item4{
+    position: absolute;
+    width: 100.27px;
+    height: 44.69px;
+    left: 1380.61px;
+    top: 40.30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.0506px;
+    line-height: 30px;
+    color: #4B4C4E;
+    text-shadow: 0px 4.26425px 4.26425px rgba(0, 0, 0, 0.25);
+}
+
+.btn1{
+    box-sizing: border-box;
+position: absolute;
+width: 125.8px;
+height: 44.25px;
+left: 1540.96px;
+top: 40.30px;
+background: #2677C3;
+border: 0.515565px solid #878181;
+border-radius: 2.57782px;
+color: #FFFFFF;
+}
+
+.btn2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 125.8px;
+    height: 44.25px;
+    left: 1690.24px;
+    top: 40.30px;
+    background: rgba(246, 246, 246, 0.7);
+    border: 0.515565px solid #2677C3;
+    border-radius: 2.57782px;
+    color: #2677C3;
+    
+}
+.carousel-slide{
+    position: absolute;
+height: 469.94px;
+width:100%;
+left: -0.07px;
+top: 162px;
+
+
+}
+
+.form-section{
+    box-sizing: border-box;
+    position: absolute;
+    width: 632.85px;
+    height: 656.99px;
+    left: 532.73px;
+    top: 721.88px;
+    background: #FFFFFF;
+    border: 1.17655px solid #CDCCCC;
+    border-radius: 5.88276px;
+    margin: 2cm;
+    
+}
+.login{
+    position: absolute;
+width: 115.06px;
+height: 55.57px;
+left: 242.91px;
+top: 100.42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 55.4876px;
+line-height: 50px;
+
+color: #000000;
+}
+
+#exampleInputEmail1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 403.94px;
+    height: 68.44px;
+    left: 100.18px;
+    top: 185.66px;
+    background: #FFFFFF;
+    border: 1.17655px solid #CDCCCC;
+    border-radius: 11.7655px;
+}
+
+#exampleInputPassword1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 403.94px;
+    height: 68.44px;
+    left: 100.18px;
+    top: 285.66px;
+    background: #FFFFFF;
+    border: 1.17655px solid #CDCCCC;
+    border-radius: 11.7655px;
+
+}
+
+#btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 158.61px;
+    height: 52.86px;
+    left: 232.30px;
+    top: 450.22px;
+    background: rgba(83, 154, 224, 0.74);
+    border: 0.56799px solid #878181;
+    border-radius: 5.88276px;
+}
+.register{
+    position: absolute;
+    width: 110.95px;
+    height: 21.37px;
+    left: 265.19px;
+    top: 515.62px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+  font-size: 16.1235px;
+   line-height: 19px;
+  color: #000000;
+
+
+}
