@@ -21,6 +21,6 @@ CREATE TABLE School (
     Class10 INT(25),
     DOL DATE NOT NULL,
     ShiftTo VARCHAR(25)
-);
+  );
 
 
