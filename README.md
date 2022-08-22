@@ -1,6 +1,6 @@
 # Interlink_platform
 ## Team Name : Comp Crew 
-## Team Members : Shoib, Subham, Malay, Sanskruti, Gourish , Aniket
+## Team Members : Shoib, Subham, Malay, Sanskruti, Gourish, Aniket
 ## Objective
 To develop an Interlinked platform for School education, Higher education and Technical education in India"
 ## Description
