@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%block title%}
+{{ post.title_tag}}
+{% endblock%}
+{% block content%}
+<!--current user: {{user.id}}
+post author:{{post.author.id}}-->
+<br/>
+<h1>{{ post.title}}</h1>
+ By : {{post.author}} - {{post.post_date}}
+
+ {% if user.is_authenticated %}
+   {% if user.id == post.author.id %}
+    <small><a href="{% url 'update_post' pk=post.pk %}">(Edit)</a> </small>    <small><a href="{% url 'delete_post' post.pk %}">(Delete)</a></small>
+   {%endif%}
+ {%endif%}
+<br> 
+<hr>
+{{post.body|safe}}
+<br/>
+<br/>
+<a href="{% url 'home' %}" class="btn btn-secondary"> Back </a>
+{% endblock %}
